@@ -8,6 +8,7 @@ class PGMImage
    PGMImage(int x, int y, int col);
    ~PGMImage();
    bool write(char *);
+   void writeJPEGWithLines(const char* filename, std::vector<std::pair<int, int>> lines, float radInc, int rBins);
 		   
    int x_dim;
    int y_dim;
