@@ -6,7 +6,19 @@
 - Diego Perdomo
 - Fredy Velasquez
 
-## houghBase.cu
+## Compilacion
+
+- Para todos los programas: `make`
+- hough base: `make hough`
+
+## Ejecucion
+
+- hough base: `./hough [image.pgm]`
+
+
+Reemplazar [image.pgm] por nuestra imagen
+
+
 
 
 
