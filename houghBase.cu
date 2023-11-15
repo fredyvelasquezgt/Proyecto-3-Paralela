@@ -239,7 +239,7 @@ int main(int argc, char **argv) {
     for (i = 0; i < degreeBins * rBins; i++)
     {
       if (cpuht[i] != h_hough[i])
-        printf("");
+        printf(" ");
     }
 
    
