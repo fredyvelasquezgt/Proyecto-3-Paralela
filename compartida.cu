@@ -252,13 +252,13 @@ int main(int argc, char **argv) {
     for (i = 0; i < degreeBins * rBins; i++)
     {
       if (cpuht[i] != h_hough[i])
-        printf ("");
+        printf (" ");
     }
 
    
 
     // Dibujar las líneas en la imagen
-    int threshold = 3000; 
+    int threshold = 3500; 
     drawLines(inImg.pixels, w, h, h_hough, threshold, rScale);
 
     // Guardar la imagen resultante en formato JPEG
